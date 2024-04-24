@@ -4,10 +4,22 @@
 
 remote-http-command
 
+## Install
+
+```
+go install github.com/pefish/remote-http-command/cmd/remote-http-command@latest
+```
+
 ## Quick start
 
 ```shell script
-GO_CONFIG=`pwd`/config/local.yaml go run ./cmd/remote-http-command/
+remote-http-command --config=/path/to/config
+```
+
+or
+
+```shell script
+GO_CONFIG=/path/to/config remote-http-command
 ```
 
 ## Document
